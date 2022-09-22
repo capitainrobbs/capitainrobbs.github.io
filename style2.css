@@ -1,0 +1,108 @@
+/*CSS page test2.html*/
+
+*
+{
+	background-color: powderblue;
+}
+
+.flex-container
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.entete
+{
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+
+.entete:hover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.nom, em
+{
+	color: darkgoldenrod;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+
+.deco
+{
+	background-image: url("images/texturenom.webp");
+}
+.nom
+{
+	font-size: 40px;
+	opacity: 0.9;
+	padding: 6px;
+	border: 4px darkgoldenrod solid;
+	border-bottom: 4px double;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px darkgoldenrod;
+	text-shadow: 1px 1px 2px darkgoldenrod;
+}
+
+h1
+{
+	text-align: center;
+}
+
+.presentation
+{
+	text-align: justify;
+}
+
+.profil
+{
+	text-decoration: underline;
+}
+
+h2
+{
+	color: darkgoldenrod;
+}
+h2:hover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+h3
+{
+	text-align: center;
+}
+
+aside
+{
+	display: flex;
+	justify-content: center;
+}
+
+.contact
+{
+	color: darkgoldenrod;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+.email
+{
+	text-decoration: underline;
+}
+
+.lien
+{
+	color: rebeccapurple;
+	text-align: center;
+}
+
+.pageweb
+{
+	opacity: 0.6;
+}
